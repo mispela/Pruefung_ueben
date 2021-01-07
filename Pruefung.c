@@ -6,6 +6,7 @@ int durch_3_teilbar(int *b, int i);
 int durch_3_teilbar(int *b, int i)
 {
 
+
 	static int k=-1;
 	k++;
 	if(k==i)
